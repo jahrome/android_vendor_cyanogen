@@ -19,6 +19,9 @@ PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=$(TOP)/vendor/cyanogen/prelink-
 
 PRODUCT_PACKAGES += Torch
 
+# TI FM radio
+$(call inherit-product, vendor/cyanogen/products/ti_fm_radio.mk)
+
 PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/legend
 
 ifdef CYANOGEN_NIGHTLY
@@ -27,10 +30,10 @@ ifdef CYANOGEN_NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.0.0-RC2-Legend
+            ro.modversion=CyanogenMod-7.0.0-RC4-Legend
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.0.0-RC2-Legend-KANG
+            ro.modversion=CyanogenMod-7.0.0-RC4-Legend-KANG
     endif
 endif
 

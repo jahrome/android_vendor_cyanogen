@@ -6,6 +6,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_buzz.mk \
     $(LOCAL_DIR)/cyanogen_click.mk \
     $(LOCAL_DIR)/cyanogen_crespo.mk \
+    $(LOCAL_DIR)/cyanogen_desirec.mk \
     $(LOCAL_DIR)/cyanogen_dream_sapphire.mk \
     $(LOCAL_DIR)/cyanogen_encore.mk \
     $(LOCAL_DIR)/cyanogen_espresso.mk \
@@ -21,6 +22,9 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_one.mk \
     $(LOCAL_DIR)/cyanogen_passion.mk \
     $(LOCAL_DIR)/cyanogen_sholes.mk \
+    $(LOCAL_DIR)/cyanogen_speedy.mk \
     $(LOCAL_DIR)/cyanogen_supersonic.mk \
+    $(LOCAL_DIR)/cyanogen_vega.mk \
     $(LOCAL_DIR)/cyanogen_vision.mk \
-    $(LOCAL_DIR)/cyanogen_z71.mk
+    $(LOCAL_DIR)/cyanogen_z71.mk \
+    $(LOCAL_DIR)/cyanogen_zero.mk
