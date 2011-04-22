@@ -86,6 +86,8 @@ PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/xbin/iostat:system/xbin/iostat \
     vendor/cyanogen/prebuilt/common/xbin/pidstat:system/xbin/pidstat \
     vendor/cyanogen/prebuilt/common/xbin/mpstat:system/xbin/mpstat \
+    vendor/cyanogen/prebuilt/common/etc/permissions/com.google.android.maps.xml:etc/permissions/com.google.android.maps.xml \
+    vendor/cyanogen/prebuilt/common/system/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     vendor/cyanogen/prebuilt/common/xbin/cifsiostat:system/xbin/cifsiostat \
     vendor/cyanogen/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh
 
