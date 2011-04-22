@@ -1,0 +1,4 @@
+#!/system/bin/sh
+
+log -t jer_inetd "Starting script"
+logwrapper inetd /etc/inetd.conf
