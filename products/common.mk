@@ -92,6 +92,8 @@ PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/etc/inetd.conf:system/etc/inetd.conf \
     vendor/cyanogen/prebuilt/common/etc/init.d/21inetd:system/etc/init.d/21inetd \
     vendor/cyanogen/prebuilt/common/etc/init.d/21xmpp-tunnel:system/etc/init.d/21xmpp-tunnel \
+    vendor/cyanogen/prebuilt/common/xbin/cntlm:system/xbin/cntlm \
+    vendor/cyanogen/prebuilt/common/etc/cntlm.conf:system/etc/cntlm.conf \
     vendor/cyanogen/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh
 
 PRODUCT_COPY_FILES += \
