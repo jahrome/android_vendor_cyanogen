@@ -82,6 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/xbin/powertop:system/xbin/powertop \
     vendor/cyanogen/prebuilt/common/xbin/xmpp-tunnel:system/xbin/xmpp-tunnel \
     vendor/cyanogen/prebuilt/common/xbin/xmpp-tunneld:system/xbin/xmpp-tunneld \
+    vendor/cyanogen/prebuilt/common/xbin/xmpp-tunneld.sh:system/xbin/xmpp-tunneld.sh \
     vendor/cyanogen/prebuilt/common/xbin/jnettop:system/xbin/jnettop \
     vendor/cyanogen/prebuilt/common/xbin/iostat:system/xbin/iostat \
     vendor/cyanogen/prebuilt/common/xbin/pidstat:system/xbin/pidstat \
