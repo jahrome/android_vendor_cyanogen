@@ -91,6 +91,9 @@ PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
     vendor/cyanogen/prebuilt/common/system/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
     vendor/cyanogen/prebuilt/common/etc/inetd.conf:system/etc/inetd.conf \
+    vendor/cyanogen/prebuilt/common/bin/csync:system/bin/csync \
+    vendor/cyanogen/prebuilt/common/lib/libcsync.so:system/lib/libcsync.so \
+    vendor/cyanogen/prebuilt/common/lib/csync_sftp.so:system/lib/csync_sftp.so \
     vendor/cyanogen/prebuilt/common/etc/init.d/21inetd:system/etc/init.d/21inetd \
     vendor/cyanogen/prebuilt/common/etc/init.d/21xmpp-tunnel:system/etc/init.d/21xmpp-tunnel \
     vendor/cyanogen/prebuilt/common/xbin/cntlm:system/xbin/cntlm \
