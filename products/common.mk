@@ -102,6 +102,7 @@ PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/bin/file:system/bin/file \
     vendor/cyanogen/prebuilt/common/lib/libmagic.so:system/lib/libmagic.so \
     vendor/cyanogen/prebuilt/common/system/usr/share/magic/magic.mgc:system/usr/share/magic/magic.mgc \
+    vendor/cyanogen/prebuilt/common/bin/gst123:system/bin/gst123 \
     vendor/cyanogen/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh
 
 PRODUCT_COPY_FILES += \
