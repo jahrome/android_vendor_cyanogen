@@ -1,0 +1,5 @@
+#!/system/bin/sh
+
+log -t jer_tunnel "Starting script"
+#logwrapper /system/xbin/xmpp-tunneld.sh
+screen -dmS xmpp -s /system/xbin/bash xmpp-tunneld.sh

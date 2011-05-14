@@ -80,13 +80,36 @@ PRODUCT_COPY_FILES += \
     vendor/cyanogen/prebuilt/common/xbin/htop:system/xbin/htop \
     vendor/cyanogen/prebuilt/common/xbin/irssi:system/xbin/irssi \
     vendor/cyanogen/prebuilt/common/xbin/powertop:system/xbin/powertop \
+    vendor/cyanogen/prebuilt/common/xbin/xmpp-tunnel:system/xbin/xmpp-tunnel \
+    vendor/cyanogen/prebuilt/common/xbin/xmpp-tunneld:system/xbin/xmpp-tunneld \
+    vendor/cyanogen/prebuilt/common/xbin/xmpp-tunneld.sh:system/xbin/xmpp-tunneld.sh \
+    vendor/cyanogen/prebuilt/common/xbin/jnettop:system/xbin/jnettop \
+    vendor/cyanogen/prebuilt/common/xbin/iostat:system/xbin/iostat \
+    vendor/cyanogen/prebuilt/common/xbin/pidstat:system/xbin/pidstat \
+    vendor/cyanogen/prebuilt/common/xbin/mpstat:system/xbin/mpstat \
+    vendor/cyanogen/prebuilt/common/xbin/cifsiostat:system/xbin/cifsiostat \
+    vendor/cyanogen/prebuilt/common/etc/permissions/com.google.android.maps.xml:system/etc/permissions/com.google.android.maps.xml \
+    vendor/cyanogen/prebuilt/common/system/framework/com.google.android.maps.jar:system/framework/com.google.android.maps.jar \
+    vendor/cyanogen/prebuilt/common/etc/inetd.conf:system/etc/inetd.conf \
+    vendor/cyanogen/prebuilt/common/bin/csync:system/bin/csync \
+    vendor/cyanogen/prebuilt/common/lib/libcsync.so:system/lib/libcsync.so \
+    vendor/cyanogen/prebuilt/common/lib/csync_sftp.so:system/lib/csync_sftp.so \
+    vendor/cyanogen/prebuilt/common/etc/init.d/21inetd:system/etc/init.d/21inetd \
+    vendor/cyanogen/prebuilt/common/etc/init.d/21xmpp-tunnel:system/etc/init.d/21xmpp-tunnel \
+    vendor/cyanogen/prebuilt/common/xbin/cntlm:system/xbin/cntlm \
+    vendor/cyanogen/prebuilt/common/etc/cntlm.conf:system/etc/cntlm.conf \
+    vendor/cyanogen/prebuilt/common/bin/ht:system/bin/ht \
+    vendor/cyanogen/prebuilt/common/bin/file:system/bin/file \
+    vendor/cyanogen/prebuilt/common/lib/libmagic.so:system/lib/libmagic.so \
+    vendor/cyanogen/prebuilt/common/system/usr/share/magic/magic.mgc:system/usr/share/magic/magic.mgc \
+    vendor/cyanogen/prebuilt/common/bin/gst123:system/bin/gst123 \
     vendor/cyanogen/prebuilt/common/xbin/openvpn-up.sh:system/xbin/openvpn-up.sh
 
 PRODUCT_COPY_FILES += \
 #    vendor/cyanogen/prebuilt/common/etc/init.d/10apps2sd:system/etc/init.d/10apps2sd
 
-PRODUCT_COPY_FILES +=  \
-    vendor/cyanogen/proprietary/RomManager.apk:system/app/RomManager.apk \
+#PRODUCT_COPY_FILES +=  \
+#    vendor/cyanogen/proprietary/RomManager.apk:system/app/RomManager.apk \
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
