@@ -28,9 +28,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/vivo
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
-# Add AicBootFix for vivo battery fix
-PRODUCT_PACKAGES += AicBootFix
-
 # Broadcom FM radio
 $(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
@@ -43,10 +40,10 @@ ifdef CYANOGEN_NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC1-IncS
+            ro.modversion=CyanogenMod-7.1.0-IncS
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC1-IncS-KANG
+            ro.modversion=CyanogenMod-7.1.0-IncS-KANG
     endif
 endif
 

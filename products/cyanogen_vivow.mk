@@ -25,9 +25,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/vivow
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
-# Add AicBootFix for vivow battery fix
-PRODUCT_PACKAGES += AicBootFix
-
 # Broadcom FM radio
 $(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
@@ -40,10 +37,10 @@ ifdef CYANOGEN_NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-Beta1-Inc2
+            ro.modversion=CyanogenMod-7.1.0-Inc2
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC1-Beta1-Inc2-KANG
+            ro.modversion=CyanogenMod-7.1.0-Inc2-KANG
     endif
 endif
 

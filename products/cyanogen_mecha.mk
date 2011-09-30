@@ -20,9 +20,6 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/cyanogen/overlay/mecha
 # Add the Torch app
 PRODUCT_PACKAGES += Torch
 
-# Add AicBootFix
-PRODUCT_PACKAGES += AicBootFix
-
 # Broadcom FM radio
 $(call inherit-product, vendor/cyanogen/products/bcm_fm_radio.mk)
 
@@ -38,10 +35,10 @@ ifdef CYANOGEN_NIGHTLY
 else
     ifdef CYANOGEN_RELEASE
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC1-Thunderbolt
+            ro.modversion=CyanogenMod-7.1.0-Thunderbolt
     else
         PRODUCT_PROPERTY_OVERRIDES += \
-            ro.modversion=CyanogenMod-7.1.0-RC1-Thunderbolt-KANG
+            ro.modversion=CyanogenMod-7.1.0-Thunderbolt-KANG
     endif
 endif
 
