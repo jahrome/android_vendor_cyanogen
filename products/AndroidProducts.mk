@@ -23,6 +23,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_inc.mk \
     $(LOCAL_DIR)/cyanogen_jordan.mk \
     $(LOCAL_DIR)/cyanogen_galaxys2.mk \
+    $(LOCAL_DIR)/cyanogen_galaxys2att.mk \
     $(LOCAL_DIR)/cyanogen_galaxysmtd.mk \
     $(LOCAL_DIR)/cyanogen_generic.mk \
     $(LOCAL_DIR)/cyanogen_glacier.mk \
@@ -36,6 +37,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/cyanogen_morrison.mk \
     $(LOCAL_DIR)/cyanogen_motus.mk \
     $(LOCAL_DIR)/cyanogen_one.mk \
+    $(LOCAL_DIR)/cyanogen_olympus.mk \
     $(LOCAL_DIR)/cyanogen_p990.mk \
     $(LOCAL_DIR)/cyanogen_p999.mk \
     $(LOCAL_DIR)/cyanogen_passion.mk \
